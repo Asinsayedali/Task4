@@ -1,0 +1,135 @@
+/* General setup */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  min-width: 1000px;
+  max-width: 1400px;
+}
+
+/* Layout */
+
+section {
+  float: left;
+  width: 50%;
+}
+
+aside {
+  float: left;
+  width: 30%;
+}
+
+nav {
+  float: left;
+  width: 20%;
+}
+
+footer {
+  clear: both;
+}
+
+header, section, aside, nav, footer {
+  padding: 20px;
+}
+
+/* header and footer */
+
+header, footer {
+  border-top: 5px solid #a66;
+  border-bottom: 5px solid #a66;
+}
+
+/* WRITE YOUR CODE BELOW HERE */
+
+
+
+h1,h2{
+    font-family: 'Preahvihear', sans-serif;
+    letter-spacing: 0.5rem;
+    font-weight: bolder;
+}
+*{
+    font-family: 'Oswald', sans-serif;
+    
+}
+html{
+    font-size: 10px;
+}
+h1{
+    font-size: 3.6rem;
+    display: flex;
+    justify-content: center;
+    font-weight: bolder;
+}
+h2{
+    font-size: 2.6rem;
+    font-weight: bolder;
+    
+}
+p{
+    font-size: 1.9rem;
+    line-height: 3.5rem;
+    letter-spacing: 0.2rem;
+    word-spacing: 0.2rem;
+
+}
+section h2+p{
+    text-indent: 20px;
+}
+a:link {
+    color: #a66;
+    background-color: transparent;
+}
+
+a:visited {
+    color: #a66;
+    background-color: transparent;
+}
+a:hover,a:focus{
+    color:  #800000;
+    text-decoration: none;
+}
+a:active{
+    color: #f6a494;
+    
+}
+a[href^='http']{
+    background: url('external-link-52.png');
+    background-size: 1.6rem 1.6rem;
+    background-repeat: no-repeat;
+    padding-left: 1.9rem;
+}
+ul,ol {
+    font-size: 1.9rem;
+    letter-spacing: .5px;
+    line-height: 1.6;
+    word-spacing: .5px;
+}
+ul{
+    list-style-type: square;
+}
+nav ul{
+    list-style-type: none;
+   
+}
+nav li{
+    margin: 1rem 1rem;
+}
+nav a {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  padding: 1.6rem 3.2rem;
+  border: 1px solid #a66;
+  font-size: 1.8rem;
+}
+nav a:focus,nav a:hover {
+    background-color: #a66;
+    color: #fff;
+}
+nav a:focus{
+    outline: 2px solid #a66;
+}
